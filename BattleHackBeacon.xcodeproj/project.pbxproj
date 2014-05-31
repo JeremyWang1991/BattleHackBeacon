@@ -21,6 +21,7 @@
 		3A337788193A327D0016B22E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A33776A193A327D0016B22E /* UIKit.framework */; };
 		3A337790193A327D0016B22E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A33778E193A327D0016B22E /* InfoPlist.strings */; };
 		3A337792193A327D0016B22E /* BattleHackBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A337791193A327D0016B22E /* BattleHackBeaconTests.m */; };
+		3A33779C193A49000016B22E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A33779B193A49000016B22E /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3A33778D193A327D0016B22E /* BattleHackBeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BattleHackBeaconTests-Info.plist"; sourceTree = "<group>"; };
 		3A33778F193A327D0016B22E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A337791193A327D0016B22E /* BattleHackBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BattleHackBeaconTests.m; sourceTree = "<group>"; };
+		3A33779B193A49000016B22E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A33779C193A49000016B22E /* CoreLocation.framework in Frameworks */,
 				3A337769193A327D0016B22E /* CoreGraphics.framework in Frameworks */,
 				3A33776B193A327D0016B22E /* UIKit.framework in Frameworks */,
 				3A337767193A327D0016B22E /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		3A337765193A327D0016B22E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3A33779B193A49000016B22E /* CoreLocation.framework */,
 				3A337766193A327D0016B22E /* Foundation.framework */,
 				3A337768193A327D0016B22E /* CoreGraphics.framework */,
 				3A33776A193A327D0016B22E /* UIKit.framework */,
